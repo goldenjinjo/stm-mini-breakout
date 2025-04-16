@@ -7300,6 +7300,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 191.77) (xy 20.32 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24bca06-98ed-41a4-8966-03c80c15c635")
+	)
+	(wire
+		(pts
 			(xy 44.45 49.53) (xy 44.45 52.07)
 		)
 		(stroke
@@ -7327,6 +7337,16 @@
 			(type default)
 		)
 		(uuid "eabfcc5e-8678-4a6d-9874-479f00856345")
+	)
+	(wire
+		(pts
+			(xy 77.47 195.58) (xy 77.47 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb26281f-8f32-4251-9bc9-fdb3f4213e0a")
 	)
 	(wire
 		(pts
@@ -8263,6 +8283,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 189.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189ab2dc-612c-4fab-b577-1ee2618c1168")
+		(property "Reference" "#PWR20"
+			(at 26.67 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 19.05 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d38e2659-7a4e-4c74-a5dd-ceb998c44c3c")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b"
+					(reference "#PWR20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 83.82 74.93 0)
 		(unit 1)
@@ -8573,7 +8660,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 20.32 73.66 0)
+		(at 27.94 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8582,7 +8669,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cc1e7c1-0da9-4617-867e-cc3f0a6d998d")
 		(property "Reference" "J1"
-			(at 21.59 73.6599 0)
+			(at 29.21 189.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8678,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 21.59 76.1999 0)
+			(at 29.21 191.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8600,7 +8687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 73.66 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +8696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 73.66 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +8705,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 73.66 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8714,7 @@
 			)
 		)
 		(property "LCSC PN" ""
-			(at 20.32 73.66 0)
+			(at 27.94 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10172,6 +10259,73 @@
 			(project ""
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b"
 					(reference "#PWR18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a02f26b4-8a6b-4084-9a51-23d5443f8196")
+		(property "Reference" "#PWR21"
+			(at 20.32 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12690a25-8766-45f4-84b5-352fc6e40583")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b"
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
