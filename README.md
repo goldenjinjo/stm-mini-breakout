@@ -1,5 +1,6 @@
 # stm-mini-breakout
-Breakout board for STM32, specific board TBD (KiCAD)
+Breakout board for STM32H723ZGT6 MCU. 
+Plans for on-board Bluetooth and USB C (FS). 
 
 ## Schematic
 
