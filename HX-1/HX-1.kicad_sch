@@ -8216,7 +8216,7 @@
 	)
 	(text "TODO: add RC filter for analog pins"
 		(exclude_from_sim no)
-		(at 204.216 153.416 0)
+		(at 204.978 151.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)

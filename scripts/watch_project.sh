@@ -10,7 +10,7 @@ REPO_ROOT="$(realpath "$SCRIPT_DIR/..")"
 SCHEM="$REPO_ROOT/HX-1/HX-1.kicad_sch"
 WATCH_DIR="$REPO_ROOT/HX-1"
 OUT_DIR="$REPO_ROOT/docs"
-OUT_IMG="$OUT_DIR/HX-1.svg"
+OUT_IMG="$OUT_DIR"
 
 mkdir -p "$OUT_DIR"
 echo -e "📡  Watching: $SCHEM\n🔄  Output →  $OUT_IMG\n"
