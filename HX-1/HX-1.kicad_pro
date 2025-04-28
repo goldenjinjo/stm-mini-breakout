@@ -661,6 +661,14 @@
     [
       "a3219989-2bf1-44ea-9412-fab86edfb39b",
       "Root"
+    ],
+    [
+      "3a90d823-0fb3-4447-b918-f2095473f7ca",
+      "Power Clock IO"
+    ],
+    [
+      "f68304e7-586c-4481-9c91-394c7e636be5",
+      "Communication and Debug"
     ]
   ],
   "text_variables": {}
