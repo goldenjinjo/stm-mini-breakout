@@ -3447,6 +3447,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 143.51 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "230e6a45-ce66-450c-b4d8-d7a50f88b247")
+		(property "Reference" "FB2"
+			(at 147.32 78.6891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100R"
+			(at 147.32 81.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 141.732 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C1015"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96bd274a-b5f4-4d2b-add2-69e8a4dbac76")
+		)
+		(pin "1"
+			(uuid "1fce03da-2d0c-4a31-bfaa-5c1973b82908")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
+					(reference "FB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 101.6 0)
 		(unit 1)
@@ -4482,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C70225"
+		(property "LCSC PN" "C19702"
 			(at 104.14 93.98 0)
 			(effects
 				(font
@@ -4589,7 +4668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "1k"
 			(at 134.874 79.756 90)
 			(effects
 				(font
@@ -4625,7 +4704,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C23204"
+		(property "LCSC PN" "C21190"
 			(at 133.35 74.93 0)
 			(effects
 				(font
@@ -4644,85 +4723,6 @@
 			(project "HX-1"
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 143.51 80.01 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e25f92c0-69f5-4331-a9a1-6a94a31d85d1")
-		(property "Reference" "FB2"
-			(at 147.32 78.7907 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "120R"
-			(at 147.32 81.3307 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 145.288 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" "C280478"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea34639e-4544-4401-a328-8f3791c8a246")
-		)
-		(pin "1"
-			(uuid "02d23b41-63b2-4d23-aa90-4ddd1e9d9237")
-		)
-		(instances
-			(project "HX-1"
-				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
-					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C478888"
+		(property "LCSC PN" "C14663"
 			(at 93.98 93.98 0)
 			(effects
 				(font

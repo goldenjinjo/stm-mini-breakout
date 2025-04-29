@@ -1397,7 +1397,7 @@
 		)
 		(uuid "ef610683-e4d1-489d-88a3-8afc6ac2707a")
 	)
-	(text "(Load_C (10pF) - Stray_C (~5pF) ) * 2 = 10 pF"
+	(text "(Load_C (9pF) - Stray_C (~4pF) ) * 2 = 10 pF"
 		(exclude_from_sim no)
 		(at 232.664 70.358 0)
 		(effects
@@ -2053,7 +2053,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C338151"
+		(property "LCSC PN" "C1634"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -2131,7 +2131,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C338151"
+		(property "LCSC PN" "C59461"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C338151"
+		(property "LCSC PN" "C59461"
 			(at 85.09 63.5 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C112972"
+		(property "LCSC PN" "C13738"
 			(at 233.68 53.34 0)
 			(effects
 				(font
@@ -2369,7 +2369,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C338151"
+		(property "LCSC PN" "C1634"
 			(at 245.11 60.96 0)
 			(effects
 				(font
