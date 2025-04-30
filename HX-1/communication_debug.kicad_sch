@@ -2775,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 63.5)
+			(xy 149.86 57.15) (xy 149.86 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3015,7 +3015,7 @@
 	)
 	(text "disconnect to disable USB power"
 		(exclude_from_sim no)
-		(at 150.114 62.738 0)
+		(at 148.336 59.182 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3063,6 +3063,26 @@
 		)
 		(uuid "4cae1743-174a-4654-b730-c80788cfa226")
 	)
+	(label "vbus_source"
+		(at 143.51 90.17 90)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "588765e5-0ee2-4adb-bb2c-62267f34719d")
+	)
+	(label "VBUS_bridge"
+		(at 149.86 60.96 270)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b678c8e-35b2-4026-af68-cbcecfcbb34a")
+	)
 	(label "USB_LED"
 		(at 129.54 74.93 180)
 		(effects
@@ -3092,6 +3112,26 @@
 			(justify left bottom)
 		)
 		(uuid "93ca82ec-5aac-4ac2-9fad-81890499956b")
+	)
+	(label "D_raw-"
+		(at 144.78 104.14 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "a423ea27-1673-4874-8c5b-1caf7a6576cb")
+	)
+	(label "D_raw+"
+		(at 144.78 109.22 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "bcfbaf24-6000-4ea4-b034-beecb16b10db")
 	)
 	(global_label "USB_VBUS_Sensing"
 		(shape input)
@@ -3951,7 +3991,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 149.86 57.15 90)
+		(at 149.86 53.34 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3959,7 +3999,7 @@
 		(dnp no)
 		(uuid "5e4ab030-b0df-4787-b5a7-9677bd27bd40")
 		(property "Reference" "JP1"
-			(at 143.002 55.626 90)
+			(at 143.002 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +4008,7 @@
 			)
 		)
 		(property "Value" "5V_USB_Solder_Bridge"
-			(at 139.446 60.198 90)
+			(at 139.446 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 149.86 57.15 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +4026,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 57.15 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3995,7 +4035,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 149.86 57.15 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4205,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 53.34 0)
+		(at 149.86 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4174,7 +4214,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d1776b-7af9-4e2b-9aa1-9044fed591e9")
 		(property "Reference" "#PWR19"
-			(at 149.86 57.15 0)
+			(at 149.86 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4223,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 149.86 48.26 0)
+			(at 149.86 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 53.34 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 53.34 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 149.86 53.34 0)
+			(at 149.86 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
