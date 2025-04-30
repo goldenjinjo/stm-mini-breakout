@@ -3876,6 +3876,16 @@
 		)
 		(uuid "631d79e5-430c-45fb-93d4-7847f515cc86")
 	)
+	(label "LSM_CS"
+		(at 39.37 62.23 90)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "660a145d-895f-479e-bd38-887c881213b4")
+	)
 	(label "CC1"
 		(at 142.24 96.52 0)
 		(effects
@@ -3905,6 +3915,16 @@
 			(justify left bottom)
 		)
 		(uuid "bcfbaf24-6000-4ea4-b034-beecb16b10db")
+	)
+	(label "LSM_SDO"
+		(at 38.1 39.37 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "d03d1c0b-c495-4f45-99a8-6ab4b55b3367")
 	)
 	(global_label "I2C2_SCL"
 		(shape input)

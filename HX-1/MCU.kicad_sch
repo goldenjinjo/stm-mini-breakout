@@ -9036,6 +9036,16 @@
 		)
 		(uuid "23d6c89f-d3ce-4dc1-b40d-a84bca04209d")
 	)
+	(label "VCAP_2"
+		(at 250.19 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "258ef985-8165-42fb-856c-3b19b9b238b6")
+	)
 	(label "GPIO_7"
 		(at 189.23 135.89 90)
 		(effects
@@ -9895,6 +9905,16 @@
 			(justify right bottom)
 		)
 		(uuid "a3727850-f49f-49d5-8866-515a5a0c36fc")
+	)
+	(label "VCAP_1"
+		(at 255.27 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3e7a30e-8b83-4ed4-999b-f18244f4d08c")
 	)
 	(label "SPI4_MOSI"
 		(at 36.83 92.71 180)
@@ -12450,7 +12470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 159.258 90)
 			(effects
 				(font
@@ -12477,7 +12497,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 143.51 157.48 0)
 			(effects
 				(font
@@ -12749,7 +12769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 171.958 90)
 			(effects
 				(font
@@ -12776,7 +12796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 25.4 170.18 0)
 			(effects
 				(font
@@ -12893,7 +12913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 171.958 90)
 			(effects
 				(font
@@ -12920,7 +12940,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -13192,7 +13212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 171.958 90)
 			(effects
 				(font
@@ -13219,7 +13239,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -13348,7 +13368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 171.958 90)
 			(effects
 				(font
@@ -13375,7 +13395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 105.41 170.18 0)
 			(effects
 				(font
@@ -14043,7 +14063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 25.4 185.928 90)
 			(effects
 				(font
@@ -14070,7 +14090,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 25.4 184.15 0)
 			(effects
 				(font
@@ -14199,7 +14219,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.51 185.928 90)
 			(effects
 				(font
@@ -14226,7 +14246,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 143.51 184.15 0)
 			(effects
 				(font
@@ -14277,7 +14297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 105.41 185.928 90)
 			(effects
 				(font
@@ -14304,7 +14324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 105.41 184.15 0)
 			(effects
 				(font
@@ -14964,7 +14984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 64.77 185.928 90)
 			(effects
 				(font
@@ -14991,7 +15011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C25076"
 			(at 64.77 184.15 0)
 			(effects
 				(font
