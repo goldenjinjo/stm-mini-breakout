@@ -3013,6 +3013,16 @@
 		)
 		(uuid "6c041509-5732-4052-8004-4cd4fae446af")
 	)
+	(text "TODO: change schottky diode to be a basic part"
+		(exclude_from_sim no)
+		(at 180.594 151.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6fc13aaa-a051-4810-a637-95ccb221bb35")
+	)
 	(text "disconnect to disable USB power"
 		(exclude_from_sim no)
 		(at 148.336 59.182 0)
