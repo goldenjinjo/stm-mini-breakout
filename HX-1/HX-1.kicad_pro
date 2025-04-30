@@ -675,6 +675,10 @@
     [
       "f68304e7-586c-4481-9c91-394c7e636be5",
       "Communication and Debug"
+    ],
+    [
+      "aefadb5b-e803-4563-8021-55be3b257719",
+      "MCU"
     ]
   ],
   "text_variables": {}

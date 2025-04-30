@@ -4,8 +4,8 @@ Plans for on-board Bluetooth and USB C (FS).
 
 ## Schematics
 
-# Main
-![HX‑1 Schematic](docs/HX-1.svg)
+# MCU
+![HX‑1 Schematic](docs/HX-1-MCU.svg)
 
 # Communication and Debug
 ![HX-1 Communication and Debug](docs/HX-1-Communication%20and%20Debug.svg)
