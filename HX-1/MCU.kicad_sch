@@ -6748,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 67.31 109.22)
+			(xy 217.17 163.83) (xy 231.14 163.83)
 		)
 		(stroke
 			(width 0)
@@ -6818,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 114.3) (xy 67.31 121.92)
+			(xy 236.22 163.83) (xy 243.84 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9497,12 +9497,12 @@
 		(uuid "60fa3b32-6761-4ad4-9ffa-5dfa697212b8")
 	)
 	(label "TIM2_PWM_1"
-		(at 67.31 95.25 270)
+		(at 217.17 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "61c71a35-59f7-4923-990a-6797fa2b2f8a")
 	)
@@ -14350,7 +14350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 67.31 121.92 0)
+		(at 243.84 163.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14359,7 +14359,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e676a68-5934-4963-997d-eef4aa8f0b19")
 		(property "Reference" "#PWR38"
-			(at 67.31 128.27 0)
+			(at 250.19 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14368,7 +14368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 127 0)
+			(at 248.92 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14376,7 +14376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 121.92 0)
+			(at 243.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,7 +14385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 121.92 0)
+			(at 243.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,7 +14394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 121.92 0)
+			(at 243.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15181,7 +15181,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 69.85 111.76 0)
+		(at 233.68 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15189,7 +15189,7 @@
 		(dnp no)
 		(uuid "c16e5001-018e-413f-80e2-5c0428f05fb5")
 		(property "Reference" "BZ1"
-			(at 73.406 110.49 0)
+			(at 232.41 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15198,7 +15198,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 73.66 113.792 0)
+			(at 235.712 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15207,7 +15207,7 @@
 			)
 		)
 		(property "Footprint" "Buzzer:YUEXIN YX-SMD5020"
-			(at 69.215 109.22 90)
+			(at 231.14 161.925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15216,7 +15216,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.215 109.22 90)
+			(at 231.14 161.925 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15225,7 +15225,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 111.76 0)
+			(at 233.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15234,7 +15234,7 @@
 			)
 		)
 		(property "LCSC" "C781883"
-			(at 69.85 111.76 0)
+			(at 233.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

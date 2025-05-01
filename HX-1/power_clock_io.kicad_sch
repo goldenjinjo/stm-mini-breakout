@@ -3059,7 +3059,7 @@
 	)
 	(text "V_BATT Max 6V"
 		(exclude_from_sim no)
-		(at 52.832 68.58 0)
+		(at 53.848 64.516 0)
 		(effects
 			(font
 				(size 2.032 2.032)

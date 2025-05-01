@@ -3,6 +3,7 @@
 # Making helper scripts executable
 chmod +x launch_project.sh
 chmod +x watch_project.sh
+chmod +x watch_project_pcb.sh
 
 # Ensure ~/.local/bin exists
 mkdir -p ~/.local/bin

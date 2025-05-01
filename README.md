@@ -14,3 +14,6 @@ Plans for on-board Bluetooth and USB C (FS).
 # Power, Clock, and IO
 ![HX-1 Power Clock IO](docs/HX-1-Power%20Clock%20IO.svg)
 
+## PCB Layout
+
+![HX-1 PCB Layout](docs/HX-1-board.svg)
