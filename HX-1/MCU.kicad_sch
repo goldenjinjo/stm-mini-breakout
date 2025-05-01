@@ -13057,7 +13057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch:SW-TH_G-SWITCH_SS-12F20-G070"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -13084,7 +13084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C2848914"
 			(at 76.2 29.21 0)
 			(effects
 				(font
