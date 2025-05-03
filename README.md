@@ -1,6 +1,7 @@
 # stm-mini-breakout
-Breakout board for STM32H723ZGT6 MCU. 
-Plans for on-board Bluetooth and USB C (FS). 
+Breakout board for STM32H723ZGT6 MCU. Powered and programmed via USB C (FS). WIP.
+
+Demonstration board for high-powered STM32s. 
 
 ## Schematics
 
