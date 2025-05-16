@@ -4104,16 +4104,6 @@
 		)
 		(uuid "dc8d627f-e5d5-4500-bae9-34509e6647d2")
 	)
-	(text "TODO: add debug pins and connector"
-		(exclude_from_sim no)
-		(at 265.176 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e3fe59b4-b573-48b3-85e0-df7564d8ac7a")
-	)
 	(label "G_LED_anode"
 		(at 38.1 154.94 0)
 		(effects
@@ -4256,28 +4246,6 @@
 			)
 		)
 	)
-	(global_label "DEBUG_SWDIO"
-		(shape input)
-		(at 271.78 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2733a240-aab3-42bc-9cfe-0d92e0b7a015")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.6715 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_VBUS_SENSE"
 		(shape input)
 		(at 182.88 43.18 90)
@@ -4318,28 +4286,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DEBUG_SWCLK"
-		(shape input)
-		(at 271.78 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8093f110-3125-49f4-8b23-6bd7b81c92d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.3087 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
