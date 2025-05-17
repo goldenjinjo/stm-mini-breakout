@@ -6235,6 +6235,10 @@
 		(uuid "1dc77c29-b2b9-42f8-a9a0-eb9a989ae3c2")
 	)
 	(no_connect
+		(at 198.12 33.02)
+		(uuid "1fcf31bb-618b-4745-8f2d-29a6922c5313")
+	)
+	(no_connect
 		(at 157.48 109.22)
 		(uuid "20fca567-eb6a-47f4-8af6-51d2b013afe1")
 	)
@@ -8100,16 +8104,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 20.32) (xy 198.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6febfd5-8e96-4a3f-94e6-850f5e777e43")
-	)
-	(wire
-		(pts
 			(xy 124.46 170.18) (xy 124.46 171.45)
 		)
 		(stroke
@@ -9445,16 +9439,6 @@
 			(justify right bottom)
 		)
 		(uuid "6fde5c80-38a2-48fe-9449-25ebfedeec3d")
-	)
-	(label "GPIO_12"
-		(at 198.12 20.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "717238cc-c63b-48e9-afa2-b5284c2a0494")
 	)
 	(label "I2C_SDA"
 		(at 87.63 147.32 90)
