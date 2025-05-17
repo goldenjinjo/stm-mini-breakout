@@ -3012,6 +3012,12 @@
 		(uuid "62c89ee0-6f44-4ecc-a1c1-40f70e13337a")
 	)
 	(junction
+		(at 158.75 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ff38536-a1a4-4ccc-97cf-fe8c47d9ba47")
+	)
+	(junction
 		(at 40.64 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3102,6 +3108,16 @@
 			(type default)
 		)
 		(uuid "012c0f11-5ee9-4ea8-b042-0f015e38c092")
+	)
+	(wire
+		(pts
+			(xy 162.56 73.66) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bfe98c-02e8-43c3-b7b2-1d541a858b6b")
 	)
 	(wire
 		(pts
@@ -3915,6 +3931,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 74.93) (xy 162.56 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec07b90a-e2ef-4754-9c8b-276fd1bd17d7")
+	)
+	(wire
+		(pts
 			(xy 171.45 83.82) (xy 171.45 82.55)
 		)
 		(stroke
@@ -4025,7 +4051,7 @@
 	)
 	(text "AN4879 - recommended resistor values for divider\n82k, 33k. Gives voltage ~3.56V (max accepted: 3.6V)"
 		(exclude_from_sim no)
-		(at 188.214 69.088 0)
+		(at 195.58 67.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4133,16 +4159,6 @@
 			(justify left bottom)
 		)
 		(uuid "4cae1743-174a-4654-b730-c80788cfa226")
-	)
-	(label "vbus_source"
-		(at 158.75 73.66 90)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify left bottom)
-		)
-		(uuid "588765e5-0ee2-4adb-bb2c-62267f34719d")
 	)
 	(label "VBUS_bridge"
 		(at 165.1 44.45 270)
@@ -4516,72 +4532,6 @@
 			(project "HX-1"
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
 					(reference "#PWR31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 109.22 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "040cc260-6cf8-4e58-9ec1-e89fff362f29")
-		(property "Reference" "#PWR18"
-			(at 109.22 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 109.22 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 109.22 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6138b28b-1dce-4830-b3f8-6e1cbb5bdf15")
-		)
-		(instances
-			(project "HX-1"
-				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
-					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -7099,6 +7049,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 109.22 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfa9772a-eea1-48d9-97f0-e93e6ce9cd24")
+		(property "Reference" "#PWR66"
+			(at 109.22 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "vbus_source"
+			(at 109.22 66.548 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d4d48f1-996e-439c-b7a1-09430b358077")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
+					(reference "#PWR66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Buzzer")
 		(at 53.34 116.84 90)
 		(unit 1)
@@ -7601,6 +7616,71 @@
 			(project "HX-1"
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
 					(reference "#PWR29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b342b5-4dc5-45b5-af5a-81e77b56769e")
+		(property "Reference" "#PWR56"
+			(at 162.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "vbus_source"
+			(at 162.56 70.358 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19c8f739-7f7c-4e32-8eb9-eed527e053f0")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
