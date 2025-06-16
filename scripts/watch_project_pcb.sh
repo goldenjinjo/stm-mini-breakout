@@ -33,7 +33,7 @@ inotifywait -m -e modify,close_write,moved_to \
     printf '🖉  %(%H:%M:%S)T – exporting PCB layout…\n' "$now"
 
     if kicad-cli pcb export svg "$PCB" \
-        --layers F.Cu,F.SilkS,B.Cu,B.SilkS,F.CrtYd,B.CrtYd,Edge.Cuts \
+        --layers F.SilkS,B.SilkS,F.CrtYd,B.CrtYd,Edge.Cuts \
         --page-size-mode 2 \
         -o "$PCB_OUT" &> /dev/null; then
         echo "✅  PCB layout → $PCB_OUT"
