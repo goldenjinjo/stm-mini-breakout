@@ -7334,16 +7334,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 102.87) (xy 24.13 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63f18814-921e-47fd-9f78-56220d683c89")
-	)
-	(wire
-		(pts
 			(xy 208.28 19.05) (xy 208.28 33.02)
 		)
 		(stroke
@@ -7371,6 +7361,16 @@
 			(type default)
 		)
 		(uuid "66a598c2-fd61-4c33-8fab-b1b4b922f6aa")
+	)
+	(wire
+		(pts
+			(xy 29.21 99.06) (xy 24.13 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66aecec2-f897-493f-a9f7-a17a08acddf3")
 	)
 	(wire
 		(pts
@@ -7821,6 +7821,16 @@
 			(type default)
 		)
 		(uuid "a3b956a8-ce5c-45d7-9392-b12590c5755f")
+	)
+	(wire
+		(pts
+			(xy 24.13 99.06) (xy 24.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d3d1a0-d84e-45f7-8954-daad7001a72c")
 	)
 	(wire
 		(pts
@@ -10049,16 +10059,6 @@
 			(justify right bottom)
 		)
 		(uuid "eea1c033-c490-41f4-bbd5-7035032ad784")
-	)
-	(label "BOOT0"
-		(at 39.37 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef5f0d83-ad67-49c9-99b0-c2c780c20124")
 	)
 	(label "SPI4_SCK"
 		(at 223.52 121.92 90)
@@ -12355,6 +12355,73 @@
 			(project "HX-1"
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/aefadb5b-e803-4563-8021-55be3b257719"
 					(reference "#PWR65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54841d6e-5fa0-4d35-86b0-d4177b932a41")
+		(property "Reference" "#PWR40"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5f7f9a8-1975-410e-a81f-f4b11e7c1f57")
+		)
+		(instances
+			(project "HX-1"
+				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/aefadb5b-e803-4563-8021-55be3b257719"
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
