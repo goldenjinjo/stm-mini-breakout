@@ -7074,7 +7074,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 22.86) (xy 67.31 22.86)
+			(xy 54.61 25.4) (xy 67.31 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7244,7 +7244,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 67.31 25.4)
+			(xy 54.61 22.86) (xy 67.31 22.86)
 		)
 		(stroke
 			(width 0)
@@ -8821,7 +8821,7 @@
 		(uuid "0a47d8ab-f230-473e-b761-bdc0fc54ebc8")
 	)
 	(label "USART2_CTS"
-		(at 67.31 25.4 180)
+		(at 67.31 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9781,7 +9781,7 @@
 		(uuid "c3a294da-7335-411c-a35d-a2d12414da13")
 	)
 	(label "USART2_RTS"
-		(at 67.31 22.86 180)
+		(at 67.31 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
