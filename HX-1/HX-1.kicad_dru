@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "USB-C mech hole clearance exception"
+  (constraint hole_clearance (min 0.15mm))
+  (condition "A.memberOfFootprint('J1') || B.memberOfFootprint('J1')")
+)
