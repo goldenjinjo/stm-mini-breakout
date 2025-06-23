@@ -3054,12 +3054,6 @@
 		(uuid "ae325771-dc96-423b-8557-a95bd33652f7")
 	)
 	(junction
-		(at 173.99 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1a90dd5-cd2a-4e03-8987-c9b8d8f4c0e6")
-	)
-	(junction
 		(at 157.48 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3101,16 +3095,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 173.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "012c0f11-5ee9-4ea8-b042-0f015e38c092")
-	)
-	(wire
-		(pts
 			(xy 162.56 73.66) (xy 162.56 74.93)
 		)
 		(stroke
@@ -3128,16 +3112,6 @@
 			(type default)
 		)
 		(uuid "06c41d67-a1e5-44bf-bf9e-75808d4537ea")
-	)
-	(wire
-		(pts
-			(xy 173.99 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0af51dcc-8504-45b6-9bd3-83bdd352a3cb")
 	)
 	(wire
 		(pts
@@ -3231,16 +3205,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 109.22) (xy 165.1 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318010be-b936-4fe8-9c27-4b1c7734a5b7")
-	)
-	(wire
-		(pts
 			(xy 165.1 54.61) (xy 165.1 58.42)
 		)
 		(stroke
@@ -3251,16 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 109.22) (xy 165.1 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "354f6215-9359-4816-8982-08f243a31238")
-	)
-	(wire
-		(pts
 			(xy 157.48 87.63) (xy 156.21 87.63)
 		)
 		(stroke
@@ -3268,16 +3222,6 @@
 			(type default)
 		)
 		(uuid "3b05e73b-e265-4fca-98d3-f0e285840492")
-	)
-	(wire
-		(pts
-			(xy 173.99 96.52) (xy 173.99 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7cb1bb-9c09-47a0-a3fc-494e101bab98")
 	)
 	(wire
 		(pts
@@ -3471,7 +3415,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 109.22) (xy 182.88 90.17)
+			(xy 184.15 92.71) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3781,7 +3725,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 92.71) (xy 157.48 92.71)
+			(xy 157.48 92.71) (xy 184.15 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3881,7 +3825,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 185.42 90.17)
+			(xy 184.15 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4109,16 +4053,6 @@
 			)
 		)
 		(uuid "8c55823f-a582-4645-9046-6c8da839602a")
-	)
-	(text "Pull up resistor required on certain STM boards\nNot Required on H7 Series"
-		(exclude_from_sim no)
-		(at 178.562 114.554 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cf171ccd-6e68-46a2-a700-7641c22ba37e")
 	)
 	(text "USB C"
 		(exclude_from_sim no)
@@ -5818,84 +5752,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "72c2f3f0-2a66-49cc-be06-28babe0b5252")
-		(property "Reference" "R5"
-			(at 176.53 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 179.07 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.768 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC PN" ""
-			(at 173.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e6fdc38d-4114-4e6d-9127-53f25cd0d019")
-		)
-		(pin "1"
-			(uuid "4da76534-e2a5-4c3a-b9b8-0a17bdf80233")
-		)
-		(instances
-			(project "HX-1"
-				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Motion:LSM6DS3")
 		(at 57.15 44.45 0)
 		(unit 1)
@@ -7329,71 +7185,6 @@
 			(project "HX-1"
 				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
 					(reference "#PWR61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 173.99 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7472e44-1843-4393-a115-d573358af7b5")
-		(property "Reference" "#PWR24"
-			(at 173.99 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 173.736 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6da509e-37bc-4053-bd3b-ddd9dcefa06f")
-		)
-		(instances
-			(project ""
-				(path "/a3219989-2bf1-44ea-9412-fab86edfb39b/f68304e7-586c-4481-9c91-394c7e636be5"
-					(reference "#PWR24")
 					(unit 1)
 				)
 			)
