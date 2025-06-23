@@ -25901,6 +25901,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d7110d69-6d30-40c3-9356-bbb87647c067")
 	)
+	(gr_text "S-Watts"
+		(at 153.6 131.4 0)
+		(layer "B.SilkS")
+		(uuid "0553d9df-250b-48de-be4f-34c2eb085f80")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "CTS"
 		(at 136 97.4 0)
 		(layer "B.SilkS")
@@ -25921,6 +25934,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "JLCJLCJLC"
+		(at 155 139 0)
+		(layer "B.SilkS")
+		(uuid "37ceaf8e-2cb1-4bd2-baec-f4b3c72b5821")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
@@ -26081,6 +26107,19 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "24.06.25"
+		(at 154.3 134.1 0)
+		(layer "B.SilkS")
+		(uuid "af44e0a9-b369-4e96-a91a-30feab470a88")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "-"
 		(at 138.6 159.49 180)
 		(layer "B.SilkS")
@@ -26089,6 +26128,19 @@
 			(font
 				(size 1.5 1.5)
 				(thickness 0.2)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "V1"
+		(at 150.3 136.7 0)
+		(layer "B.SilkS")
+		(uuid "b64876c5-6e77-455b-ab49-948e52891cd6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
 			)
 			(justify left bottom mirror)
 		)
