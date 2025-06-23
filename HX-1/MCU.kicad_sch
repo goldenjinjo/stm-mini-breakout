@@ -8891,7 +8891,7 @@
 		(uuid "1748102d-0e8e-4d2a-a9a5-0c4c0ce72f53")
 	)
 	(label "TIM1_PWM_1+"
-		(at 38.1 34.29 180)
+		(at 38.1 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9911,7 +9911,7 @@
 		(uuid "db305470-3066-4b35-a599-fdeca8835e38")
 	)
 	(label "TIM1_PWM_1-"
-		(at 38.1 36.83 180)
+		(at 38.1 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
