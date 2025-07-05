@@ -16,7 +16,7 @@
 		(uuid "eb26281f-8f32-4251-9bc9-fdb3f4213e0a")
 	)
 	(sheet
-		(at 182.245 52.705)
+		(at 208.28 56.515)
 		(size 53.34 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -27,8 +27,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3a90d823-0fb3-4447-b918-f2095473f7ca")
-		(property "Sheetname" "Power Clock IO"
-			(at 182.245 51.9934 0)
+		(property "Sheetname" "Filtering, Clock, and Mounting Holes"
+			(at 208.28 55.8034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36,8 +36,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power_clock_io.kicad_sch"
-			(at 182.245 88.8496 0)
+		(property "Sheetfile" "filter_clock_mount.kicad_sch"
+			(at 208.28 92.6596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		)
 	)
 	(sheet
-		(at 24.765 50.8)
+		(at 50.8 54.61)
 		(size 46.355 36.83)
 		(fields_autoplaced yes)
 		(stroke
@@ -66,7 +66,7 @@
 		)
 		(uuid "aefadb5b-e803-4563-8021-55be3b257719")
 		(property "Sheetname" "MCU"
-			(at 24.765 50.0884 0)
+			(at 50.8 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 24.765 88.2146 0)
+			(at 50.8 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,7 +92,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 52.705)
+		(at 123.825 56.515)
 		(size 52.07 34.925)
 		(fields_autoplaced yes)
 		(stroke
@@ -103,8 +103,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f68304e7-586c-4481-9c91-394c7e636be5")
-		(property "Sheetname" "Communication and Debug"
-			(at 97.79 51.9934 0)
+		(property "Sheetname" "Communication and Power"
+			(at 123.825 55.8034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,8 +112,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "communication_debug.kicad_sch"
-			(at 97.79 88.2146 0)
+		(property "Sheetfile" "communication_power.kicad_sch"
+			(at 123.825 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
