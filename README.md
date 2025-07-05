@@ -9,11 +9,11 @@ Demonstration board for high-powered STM32s.
 ![HX‑1 Schematic](docs/HX-1-MCU.svg)
 
 # Communication and Debug
-![HX-1 Communication and Debug](docs/HX-1-Communication%20and%20Power.svg)
+![HX-1 Communication and Power](docs/HX-1-Communication%20and%20Power.svg)
 
 
 # Power, Clock, and IO
-![HX-1 Power Clock IO](docs/HX-1-Filtering,%20Clock,%20and%20Mounting%20Holes.svg)
+![HX-1 Filering, Clock and Mounting Holes](docs/HX-1-Filtering,%20Clock,%20and%20Mounting%20Holes.svg)
 
 ## PCB Layout
 <p align="center">
