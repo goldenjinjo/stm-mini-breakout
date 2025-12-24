@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Value" "LSM6DS3"
+		(property "Value" "LSM6DSRTR"
 			(at 112.268 119.634 0)
 			(effects
 				(font
@@ -6931,7 +6931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C95230"
+		(property "LCSC PN" "C784817"
 			(at 111.76 115.57 0)
 			(effects
 				(font

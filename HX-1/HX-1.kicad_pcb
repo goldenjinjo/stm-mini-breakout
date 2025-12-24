@@ -9519,7 +9519,7 @@
 				)
 			)
 		)
-		(property "Value" "LSM6DS3"
+		(property "Value" "LSM6DSRTR"
 			(at 0 2.2 0)
 			(layer "F.Fab")
 			(uuid "a6aa2ba4-2b17-4e17-9ef4-663a4bd36f2a")
@@ -9566,20 +9566,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "26ce39ea-d711-4bce-92db-0b208755603d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC PN" "C126672"
+		(property "LCSC PN" "C784817"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
