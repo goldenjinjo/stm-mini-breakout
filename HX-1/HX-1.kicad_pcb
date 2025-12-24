@@ -25943,8 +25943,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "JLCJLCJLC"
-		(at 157.2 139.51 0)
+	(gr_text "JLCJLCJLCJLC"
+		(at 161.15 139.375 0)
 		(layer "B.SilkS")
 		(uuid "37ceaf8e-2cb1-4bd2-baec-f4b3c72b5821")
 		(effects
