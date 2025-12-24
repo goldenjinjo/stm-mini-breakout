@@ -10471,6 +10471,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 187.96 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "28"
 			(uuid "f411c46f-6577-42f8-a4e5-507dfc1238cf")
 		)
@@ -10917,7 +10926,7 @@
 		(at 19.05 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "15c9f74c-a5b1-41d6-b780-f2332db41a6c")
@@ -10956,6 +10965,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x28, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 19.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 19.05 57.15 0)
 			(effects
 				(font
@@ -11120,6 +11138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53378a87-b63c-4485-923a-3f4fc0f05f73")
 		)
@@ -11189,7 +11216,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 160.02 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 160.02 189.23 0)
 			(effects
 				(font
@@ -11333,7 +11369,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 124.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 124.46 189.23 0)
 			(effects
 				(font
@@ -11411,7 +11456,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 160.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 160.02 175.26 0)
 			(effects
 				(font
@@ -11556,7 +11610,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 66.04 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 66.04 182.88 0)
 			(effects
 				(font
@@ -11765,6 +11828,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C131342"
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 49.53 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "87bbe574-928e-4ab6-b145-504b58c62e58")
 		)
@@ -11862,7 +11943,7 @@
 		(at 19.05 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "3a1be39f-bea6-4385-8798-9597ddd4a638")
@@ -11901,6 +11982,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x28, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 19.05 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 19.05 138.43 0)
 			(effects
 				(font
@@ -12065,6 +12155,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 60.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c35dbeb-74a3-4a99-881e-9826b972313e")
 		)
@@ -12125,6 +12224,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131342"
+			(at 49.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -12282,6 +12399,15 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
+			(at 86.36 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 86.36 170.18 0)
 			(effects
 				(font
@@ -12566,6 +12692,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 143.51 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93734ecc-0731-4737-8564-5923fb90cc27")
 		)
@@ -12629,6 +12764,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131334"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 78.74 0)
 			(effects
 				(font
@@ -12721,6 +12874,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "837b7c82-7de6-4f4c-b500-ebd4d19f2395")
 		)
@@ -12799,6 +12961,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 80.01 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98c83be6-82fc-4f6d-9515-ded37ee6f7ab")
 		)
@@ -12869,6 +13040,15 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
+			(at 119.38 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -13070,6 +13250,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C131334"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -13493,6 +13691,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86a2d445-0295-43e9-ab2e-3bbecb52a3c1")
 		)
@@ -13571,6 +13778,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6e0d20c-f17a-413c-bc53-d0fca9508f3f")
 		)
@@ -13641,6 +13857,15 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 154.94 184.15 0)
 			(effects
 				(font
@@ -13784,7 +14009,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 124.46 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 124.46 175.26 0)
 			(effects
 				(font
@@ -14070,6 +14304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e290a635-e863-45a0-b74e-b1c0daf36473")
 		)
@@ -14140,6 +14383,15 @@
 			)
 		)
 		(property "LCSC PN" "C25076"
+			(at 119.38 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 119.38 184.15 0)
 			(effects
 				(font
@@ -14226,6 +14478,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 269.24 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90763e47-26ec-4e48-b501-2f48683eab3e")
 		)
@@ -14304,6 +14565,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 100.33 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c732ecac-4a45-49c5-aa83-99f4e16d9629")
 		)
@@ -14374,6 +14644,15 @@
 			)
 		)
 		(property "LCSC PN" "C25744"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 128.27 138.43 0)
 			(effects
 				(font
@@ -14791,6 +15070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 93.98 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3e9e64bd-7ab6-43c3-b5f4-9c95acb823e3")
 		)
@@ -15127,7 +15415,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 92.71 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 189.23 0)
 			(effects
 				(font
@@ -15215,6 +15512,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 275.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7557b07-a69d-4e5e-a48d-91478e657bc6")
 		)
@@ -15284,7 +15590,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" ""
+		(property "LCSC PN" "C1588"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 92.71 175.26 0)
 			(effects
 				(font
